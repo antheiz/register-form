@@ -1,0 +1,11 @@
+@media (min-width: 1025px) {
+    .h-custom {
+      height: 100vh !important;
+    }
+  }
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: rgb(32,26,132);
+    background: linear-gradient(90deg, rgba(32,26,132,1) 0%, rgba(103,45,226,1) 100%);
+}

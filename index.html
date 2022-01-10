@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <section>
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-lg-8 col-xl-6">
+                    <div class="card rounded-3">
+                        <img src="img/img3.webp" class="w-100"
+                            style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;" alt="Sample photo">
+                        <div class="card-body p-4 p-md-5">
+                            <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Registration for SaCode's Weekend</h3>
+
+                            <form class="px-md-2">
+
+                                <!-- Email -->
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="EmailValid"><b>Email</b></label>
+                                    <input type="text" id="EmailValid" class="form-control" placeholder="Valid email"/>
+                                </div>
+
+                                <!-- Nama Lengkap -->
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="namaLengkap"><b>Nama lengkap</b></label>
+                                    <input type="text" id="namaLengkap" class="form-control" placeholder="Short answer text"
+                                         />
+                                </div>
+
+                                <div class="row">
+                                    <!-- Gender -->
+                                    <div class="col-md-6 mb-4">
+                                        <label class="form-label" for="gender"><b>Gender</b></label>
+                                        <select class="form-select" id="gender" aria-label="Default select example">
+                                            <option selected>Laki-laki</option>
+                                            <option value="1">Perempuan</option>
+                                        </select>
+                                    </div>
+                                    <!-- Pekerjaan -->
+                                    <div class="col-md-6 mb-4">
+                                        <label class="form-label" for="pekerjaan"><b>Pekerjaan</b></label>
+                                        <select class="form-select" id="pekerjaan" aria-label="Default select example">
+                                            <option selected>Mahasiswa</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <!-- Alamat domisili -->
+                                <div class="mb-3">
+                                    <label for="alamatDomisili" class="form-label"><b>Alamat domisili</b></label>
+                                    <textarea class="form-control" id="alamatDomisili" rows="3" placeholder="Typing in here"></textarea>
+                                </div>
+
+                                <!-- Nomor HP/WA -->
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="nomorHP/WA"><b>Nomor HP/WA</b></label>
+                                    <input type="text" id="nomorHP/WA" class="form-control" placeholder="Short answer text"
+                                         />
+                                </div>
+
+                                <!-- Nomor HP/WA -->
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="sumberInformasi"><b>Dari mana kam tahu tentang SaCode's Weekend?</b></label>
+                                    <select class="form-select" id="sumberInformasi" aria-label="Default select example">
+                                        <option selected>Berita, artikel, atau blog</option>
+                                        <option value="1">Pencarian Google</option>
+                                        <option value="2">YouTube</option>
+                                        <option value="3">Teman atau keluarga</option>
+                                        <option value="3">Facebook/Instagram</option>
+                                        <option value="3">Lainnya</option>
+                                    </select>
+                                </div>
+
+                                <!-- Button Kirim -->
+                                <div class="row mb-3 pt-2">
+                                    <button type="submit" class="btn text-white btn-md mb-4" style="background-color: #672DE2;">Daftar</button>
+                                </div>
+
+                                <hr>
+
+                                <!-- S&K -->
+                                <div class="text-center">
+                                    <p>
+                                        Dengan mendaftar, kamu setuju <br>
+                                        dengan <a href="#">syarat dan ketentuan</a> kami
+                                    </p>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Script JS - Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
